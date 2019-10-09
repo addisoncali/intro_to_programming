@@ -1,0 +1,13 @@
+def main():
+    assignments_left = int(input("How many assignments have you done? "))
+    # assignments_left = 30 - assignments_left
+
+    days = int(input("How many days have you been in the course? "))
+    # days = 30 - days
+
+    progress = float((assignments_left / days) * 100)
+    # remaining_progress = float(100 - progress)
+    # remaining_progress = round(remaining_progress, 2)
+    print(progress)
+
+main()
